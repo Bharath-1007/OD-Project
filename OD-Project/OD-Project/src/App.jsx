@@ -10,6 +10,8 @@ import Status from "./Student/Status";
 import AdminDashboard from "./Admin/AdminDashBoard";
 import Settings from "./Admin/Settings";
 import AddStudent from "./Admin/AddStudent";
+import AddAdmin from "./Admin/AddAdmin";
+import EditStudent from "./Admin/EditStudent";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
             <Route path="analytics" element={<Analytics />} /> */}
             <Route path="settings" element={<Settings />}>
           <Route path="addstudent" element={<AddStudent />} />
+          <Route path="addadmin" element={<AddAdmin />} />
+          <Route path="editstudent" element={<EditStudent />} />
         </Route>
 
           </Route>

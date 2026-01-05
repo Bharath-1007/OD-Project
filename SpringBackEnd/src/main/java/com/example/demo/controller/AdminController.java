@@ -18,7 +18,8 @@ public class AdminController {
 
     @PostMapping("/save")
     public ResponseEntity<AdminRegisterEntity> saveData(@RequestBody AdminRegisterEntity adminRegisterEntity) {
-        System.out.println("Received: " + adminRegisterEntity);
+        System.out.println("Received: " + adminRegisterEntity.getName() + ", " + adminRegisterEntity.getEmail());
+        //System.out.println("Received: " + adminRegisterEntity);
         return new ResponseEntity<>(adminService.saveData(adminRegisterEntity), HttpStatus.OK);
     }
 

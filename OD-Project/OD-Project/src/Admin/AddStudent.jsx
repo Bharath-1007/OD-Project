@@ -4,7 +4,7 @@ import FormInput from "../Components/FormInput";
 function AddStudent() {
   return (
     <>
-      <h3>Add Student</h3>
+      <h3>Add New Student</h3>
         <input type="file" />
       <div>
         <div className="row">
