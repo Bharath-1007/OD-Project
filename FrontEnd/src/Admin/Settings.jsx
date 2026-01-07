@@ -24,6 +24,7 @@ function Settings() {
               type="button"
               btnclass="btn-primary"
               btnlabel="Add Admin"
+              onclick={()=>navigate("addadmin")}
             />
           </div>
           <div className="col">
