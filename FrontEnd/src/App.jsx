@@ -33,10 +33,14 @@ function App() {
         <Route path="/admin/dashboard" element={<AdminDashboard/>}>
             {/* <Route path="studenthistory" element={<StudentHistory />} />
             <Route path="analytics" element={<Analytics />} /> */}
-            <Route path="settings" element={<Settings />}>
+          <Route path="settings" element={<Settings />}>
           <Route path="addstudent" element={<AddStudent />} />
+<<<<<<< HEAD:OD-Project/OD-Project/src/App.jsx
           <Route path="addadmin" element={<AddAdmin />} />
           <Route path="editstudent" element={<EditStudent />} />
+=======
+
+>>>>>>> santhosh:FrontEnd/src/App.jsx
         </Route>
 
           </Route>
